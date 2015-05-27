@@ -5,7 +5,6 @@
 $base-font-family: $helvetica;
 
 // Colors
-$blue: #477dca;
 $dark-gray: #333;
 $medium-gray: #999;
 $light-gray: #ddd;
@@ -16,6 +15,31 @@ $base-background-color: $very-light-gray;
 
 body {
   font-family: $base-font-family;
-  background-color: $base-background-color;
   color: $base-font-color;
 }
+
+
+.accordion {
+  width: 285px;
+  height: auto;
+  padding-left: 0;
+  margin: 5em auto;
+}
+
+  .accordion-sections {
+    list-style: none;
+  }
+
+    .section-heading {
+      margin: 1em 0;
+      padding: 0.5em 0 0.5em 1.5em;
+      border: 1px solid red;
+      background-color: #fff;
+    }
+
+
+
+  .my-files-items,
+  .cloud-items, {
+    list-style: none;
+  }
