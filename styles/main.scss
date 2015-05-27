@@ -22,24 +22,50 @@ body {
 .accordion {
   width: 285px;
   height: auto;
+  background-color: $medium-gray;
   padding-left: 0;
   margin: 5em auto;
+  border-radius: 3px;
 }
 
   .accordion-sections {
     list-style: none;
+    padding-left: 0;
   }
 
     .section-heading {
       margin: 1em 0;
+      color: #fff;
+      margin: 0;
       padding: 0.5em 0 0.5em 1.5em;
-      border: 1px solid red;
-      background-color: #fff;
+      border: 1px solid #fff;
+      background-color: #5A5C61;
     }
-
 
 
   .my-files-items,
   .cloud-items, {
     list-style: none;
+    padding-left: 0;
+    background-color: $very-light-gray;
   }
+
+    .my-files-items li {
+      margin: 0;
+      height: 40px;
+      border: 1px solid $light-gray;
+    }
+
+    .cloud-items li {
+      margin: 0;
+      height: 40px;
+      border: 1px solid $light-gray;
+    }
+
+    .sub-link a {
+      text-decoration: none;
+      color: #6F6F72;
+      margin-left: 1.5em;
+      display: inline-block;
+      line-height: 40px;
+    }
