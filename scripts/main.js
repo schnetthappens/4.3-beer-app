@@ -1,9 +1,13 @@
-
-//gulp working
 (function(){
   'use strict';
 
   $(document).ready(function(){
-    $('body').prepend(JST['application']());
+    $('.section-category').hide();
   });
+
+  $(".section-heading").click(function() {
+    $('.section-heading').siblings('.section-categories').slideUp("slow", function(){});
+    $(this).next().slideDown("slow", function(){});
+  });
+
 })();

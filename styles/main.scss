@@ -43,29 +43,22 @@ body {
     }
 
 
-  .my-files-items,
-  .cloud-items, {
-    list-style: none;
-    padding-left: 0;
-    background-color: $very-light-gray;
-  }
-
-    .my-files-items li {
-      margin: 0;
-      height: 40px;
-      border: 1px solid $light-gray;
+    .section-category {
+      list-style: none;
+      padding-left: 0;
+      background-color: $very-light-gray;
     }
 
-    .cloud-items li {
-      margin: 0;
-      height: 40px;
-      border: 1px solid $light-gray;
-    }
-
-    .sub-link a {
+    .cat-link a {
       text-decoration: none;
       color: #6F6F72;
       margin-left: 1.5em;
       display: inline-block;
       line-height: 40px;
+    }
+
+     li {
+      margin: 0;
+      height: 40px;
+      border: 1px solid $light-gray;
     }
