@@ -6,8 +6,9 @@
   });
 
   $('.section-heading').click(function() {
-    $('.section-heading').siblings('.section-categories').slideUp("slow", function(){});
-    $(this).next().slideDown("slow", function(){});
+    $(this).addClass('active');
+    // $('.section-heading').siblings('.section-categories').slideUp("slow", function(){});
+    // $(this).next().slideDown("slow", function(){});
   });
 
 })();
