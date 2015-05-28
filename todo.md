@@ -6,7 +6,5 @@
  [x] Add styles to HTML elements
  [x] Display collapsed categories on page load
  [x] Change color of section title when clicked
- [ ] Make collapsed sections slide down when clicked
-
-
-    [ ] Make sections slide down when
+ [x] Make collapsed sections slide down when clicked
+ [x] Toggle sections when clicked
