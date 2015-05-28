@@ -7,8 +7,8 @@
 
   $('.section-heading').click(function() {
     $(this).addClass('active');
-    // $('.section-heading').siblings('.section-categories').slideUp("slow", function(){});
-    // $(this).next().slideDown("slow", function(){});
+    $(this).siblings('.section-categories').slideUp("slow", function(){});
+    $(this).next().slideDown("slow", function(){});
   });
 
 })();
